@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Image Editor
 
-## Getting Started
+# How tp use this repo: INSTALLATION
+1. Unzip the file
+2. Open the Folder with your favourite terminal (I used Bash)
+3. Install the Node packages ( npm install )
+4. run the project (npm run dev)
+5. open the project on the browser with the link 
 
-First, run the development server:
+# Project Overview
+This project is a content creation tool that helps users edit selected images and download them. The application is built using Next.js 14 and TypeScript and uses the free image gallery API Lorem Pictus.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# User Stories
+1. Browse image list with pagination.                     ✅
+2. Image item shows:                                      ✅
+    - Preview image                                       ✅
+    - Author name                                         ✅
+3. Click image to navigate to edit page.                  ✅
+4. Edit image:                                            ✅
+    - 4.1. Choose size: height & width                    ✅
+    - 4.2. Select greyscale mode                          ✅
+    - 4.3. Blur image (1-10)                              ✅
+5. Show edited image preview.                             ✅
+6. Download edited image.                                 ✅
+7. Refresh and maintain previous results.                 ✅
+8. Remember edit history on back button/ refresh.         ✅
+9. Design: Photo grid layout (no external libraries).     ✅
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Requirements
+Next.js 14
+TypeScript
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Conclusion
+This project fulfills the user stories and requirements for building a small content creation tool. The application allows users to browse, edit, and download images using the Lorem Pictus API.

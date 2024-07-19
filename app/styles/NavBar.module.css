@@ -1,0 +1,36 @@
+.list {
+    width: 100vw;
+  list-style-type: none;
+    position: fixed;
+  top: 0;
+  z-index: 1000;
+  margin: 0;
+  padding: 0;
+    color: white;
+  text-align: center;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.dseading {
+  Color:white;
+}
+
+.listItem:last-child {
+  border-right: none;
+}
+
+.h a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
