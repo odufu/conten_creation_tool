@@ -3,9 +3,9 @@
 # How tp use this repo: INSTALLATION
 1. Unzip the file
 2. Open the Folder with your favourite terminal (I used Bash)
-3. Install the Node packages ( npm install )
-4. run the project (npm run dev)
-5. open the project on the browser with the link 
+3. Install the Node packages ( `npm install `)
+4. run the project (`npm run dev`)
+5. open the project on the browser with the link ([http://localhost:3000])
 
 # Project Overview
 This project is a content creation tool that helps users edit selected images and download them. The application is built using Next.js 14 and TypeScript and uses the free image gallery API Lorem Pictus.

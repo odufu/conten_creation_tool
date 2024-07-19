@@ -33,22 +33,19 @@ const ImageList = () => {
           Next
         </button>
       </div>
-    <div className={styles.imageGrid}>
-      
-      {images.map((image) => (
-        <div
-          key={image.id}
-          className={styles.imageItem}
-          onClick={() => router.push(`/edit/${image.id}`)}
-        >
-          <img src={image.download_url} alt={image.author} />
-          <p>{image.author}</p>
-        </div>
-      ))}
-      
+      <div className={styles.imageGrid}>
+        {images.map((image) => (
+          <div
+            key={image.id}
+            className={styles.imageItem}
+            onClick={() => router.push(`/edit/${image.id}`)}
+          >
+            <img src={image.download_url} alt={image.author} />
+            <p>{image.author}</p>
+          </div>
+        ))}
+      </div>
     </div>
-    </div>
-    
   );
 };
 

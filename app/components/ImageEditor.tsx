@@ -71,7 +71,7 @@ const ImageEditor = ({ imageUrl }: { imageUrl: string }) => {
       <div>
         <img
           src={buildImageUrl(imageUrl)}
-          className={styles.imgPreview}
+          className={styles.ImagePreview}
           alt="Dimension Value too Larg: Reduce It"
         />
       </div>

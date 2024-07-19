@@ -7,7 +7,7 @@
 .imageItem {
   cursor: pointer;
   text-align: center;
-   margin: 5px;
+  margin: 5px;
   border: 1px solid #ccc;
   float: left;
 }
@@ -15,7 +15,7 @@
   border: 1px solid #777;
 }
 
-.imageItem img {
+.imageItem Image {
   max-width: 100%;
   height: auto;
 }
