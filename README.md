@@ -1,4 +1,4 @@
-# My Image Editor
+# My Image Editor (https://github.com/odufu/conten_creation_tool.git)
 
 # How tp use this repo: INSTALLATION
 1. Unzip the file
